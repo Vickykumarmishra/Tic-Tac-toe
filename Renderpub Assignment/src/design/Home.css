@@ -1,0 +1,57 @@
+:root {
+	--board-background: none;
+	--border-color: hsl(135, 90%, 65%);
+	--border-thickness: 5px;
+}
+
+
+
+.field {
+	height: 33.33%;
+	width: 33.33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	font-family: 'Bellefair', serif;
+	font-style: italic;
+	font-weight: 200;
+	font-size: 3rem;
+	
+}
+
+.field-1 {
+	border-right: var(--border-thickness) ridge var(--border-color);
+	border-bottom: var(--border-thickness) ridge var(--border-color);
+}
+
+.field-2 {
+	border-right: var(--border-thickness) ridge var(--border-color);
+	border-bottom: var(--border-thickness) ridge var(--border-color);
+}
+
+.field-3 {
+	border-bottom: var(--border-thickness) ridge var(--border-color);
+}
+
+.field-4 {
+	border-right: var(--border-thickness) ridge var(--border-color);
+	border-bottom: var(--border-thickness) ridge var(--border-color);
+}
+
+.field-5 {
+	border-right: var(--border-thickness) ridge var(--border-color);
+	border-bottom: var(--border-thickness) ridge var(--border-color);
+}
+
+.field-6 {
+	border-bottom: var(--border-thickness) ridge var(--border-color);
+}
+
+.field-7 {
+	border-right: var(--border-thickness) ridge var(--border-color);
+}
+
+.field-8 {
+	border-right: var(--border-thickness) ridge var(--border-color);
+}
